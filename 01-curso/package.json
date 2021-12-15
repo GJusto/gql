@@ -5,15 +5,18 @@
   "main": "/home/gustavomiranda/Documents/GitHub/gql/01-curso/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -r sucrase/register src/index.js"
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "server": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.5.0",
+    "faker": "^5.5.3",
     "git": "^0.1.5",
-    "graphql": "^15.8.0"
+    "graphql": "^15.8.0",
+    "json-server": "^0.17.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15",

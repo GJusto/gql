@@ -8,17 +8,17 @@ const user = () => {
 const users = () => {
     return [
         {
-        id: '1',
-        userName: 'Gustavo'
+            id: '1',
+            userName: 'Gustavo'
         },
         {
             id: '2',
             userName: 'Vitor'
-            },
-            {
-                id: '3',
-                userName: 'Outro Vitor'
-                },
+        },
+        {
+            id: '3',
+            userName: 'Outro Vitor'
+        },
     ];
 };
 
